@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Logo</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <h1>Header 1 Title</h1>
+        <button onclick="scrollToSection('about')">Learn More</button>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="card">
+            <img src="komahi.jpg" alt="Image">
+            <p>Card content goes here.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo">Logo</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="mailto:EyesLens01@gmail.com">EyesLens01@gmail.com</a>
+        <a href="https://wa.me/+6281225487266">+6281225487266</a>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
